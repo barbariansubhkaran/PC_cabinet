@@ -2,7 +2,14 @@
 ## Conjugate heat transfer of a PC cabinet, using chtMultiRegionSimpleFoam
 
 ### This case uses the standard chtMultiRegionSimpleFoam.
-+ just execute 
+
+<img src="https://sun9-44.userapi.com/impg/hGqaR6Km-uZCnazHJ8VRe6jALlNvj1DS7V6bYQ/Cnah_1wmmKc.jpg?size=2560x1267&quality=95&sign=a2408b13963436730535de545bd25ef1&type=album"/>
+
+
+
+
+
++ just execute
 ```
  ./run
 ```
