@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+
+
+./Allclean
+
+foamListTimes -rm
+
+blockMesh
+
+surfaceFeatureExtract
+
+snappyHexMesh -overwrite
+
+splitMeshRegions -cellZones -overwrite
+
+topoSet -region domain0
+
+foamCleanPolyMesh
+
+chtMultiRegionSimpleFoam
